@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-size: 38px;
+    color: #444444;
+}
+.publish-box{
+    width: 100%;
+    min-height: 1340px;
+    background-color: #3B4146;
+    .publish-center{
+        width: 95%;
+        margin: 0 auto;
+        padding: 40px 0;
+        .publish-select{
+            width: 100%;
+            overflow: hidden;
+            .select{
+                width: 315px;
+                height: 75px;
+                .choose{
+                    width: 100%;
+                    height: 100%;
+                    text-indent: 10px;
+                    border-radius: 5px;
+                    background-color: #EFEFEF;
+                    .option{
+                        background-color: #FFFFFF;
+                    }
+                }
+            }
+            .select-left{
+                float: left;
+            }
+            .select-right{
+                background-color: green;
+                float: right;
+            }
+        }
+        .content{
+            margin: 35px 0;
+            padding: 50px;
+            border-radius: 5px;
+            background-color: #F0F0F0;
+            border: 1px solid #232629;
+            .title{
+                width: 570px;
+                height: 40px;
+                padding: 20px;
+                border-radius: 5px;
+                border: 1px solid #C6C6C6;
+                background-color: #fff;
+            }
+            .main{
+                width: 570px;
+                height: 230px;
+                padding: 20px;
+                margin: 40px 0;
+                border-radius: 5px;
+                border: 1px solid #C6C6C6;
+                background-color: #fff;
+            }
+            .options{
+                background-color: #F0F0F0;
+                .show{
+                    background-color: #F0F0F0;
+                    overflow: hidden;
+                    .icon{
+                        float: left;
+                        width: 50px;
+                        height: 50px;
+                        background: url(./asset/right.png) no-repeat;
+                        background-size:  48px 48px;
+                    }
+                    .icon:hover{
+                        width: 50px;
+                        height: 50px;
+                        background: url(./asset/bottom.png) no-repeat;
+                        background-size:  48px 48px;
+                    }
+                    .box{
+                        float: left;
+                        .chose{
+                            color: #83929d;
+                            font-weight: normal;
+                            
+                        }
+                        .rel{
+                            font-size: 28px;
+                            color: #bbb;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+                .hides{
+                    display: none;
+                    background-color: #F0F0F0;
+                    .item{
+                        .p1{
+                            font-size: 32px;
+                            line-height: normal;
+                            font-family: Arial,Helvetica,sans-serif;
+                            color: #444;
+                            margin-top: 20px;
+                        }
+                        .choose1{
+                            width: 100%;
+                            height: 70px;
+                            text-indent: 10px;
+                            border-radius: 5px;
+                            border: 1px solid #C1C1C1;
+                            margin-top: 10px;
+                            background-color: #EFEFEF;
+                            .option1{
+                                background-color: #FFFFFF;
+                            }
+                        }
+                    }
+                }
+            }
+            .btn{
+                width: 180px;
+                height: 80px;
+                line-height: 70px;
+                border: 0;
+                text-align: center;
+                font-size: 40px;
+                color: #ecf9fa;
+                margin-top: 60px;
+                border-radius: 5px;
+                background-color: #6DBA21;
+            }
+        }
+    }
+}
