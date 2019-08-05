@@ -2,12 +2,12 @@ import React, { Component } from 'react'
 import './index.css'
 // import Denglu from './denglu'
 // import Home from './home'
-import { BrowserRouter } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 export default class Getinto extends Component {
     render() {
         return (
-            <BrowserRouter>
+            // <BrowserRouter>
                 <div className='Getinto'>
                     {/* <Route path='/' component={() => <Denglu/>}/> */}
                     <div>
@@ -21,13 +21,13 @@ export default class Getinto extends Component {
                         </div>
                         <div className='Getinto-font'>
                             <p>
-                                登录/注册
+                                <NavLink to='/denglu/dl'>登录/注册</NavLink>
                             </p>
                         </div>
                         <div className='fontnie'>Wallpaper from SONGTSE</div>
                     </div>
                 </div>
-            </BrowserRouter>
+            // </BrowserRouter>
         )
     }
 }

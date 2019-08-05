@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Header from './header'
 
-export default class Html extends Component {
+export default class Show extends Component {
     render() {
         return (
             <div>

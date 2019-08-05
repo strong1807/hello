@@ -30,7 +30,8 @@ export default class Denglu extends Component {
                 return alert('密码要6~16位哦⛄')
             }
             //成功
-            return alert('登录成功，棒棒的')
+            alert('登录成功，棒棒的')
+            window.location.replace('/show')
         }
     render() {
         const{phone,passWord} = this.state

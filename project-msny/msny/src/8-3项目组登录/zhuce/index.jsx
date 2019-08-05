@@ -44,7 +44,7 @@ export default class Zhuce extends Component {
             // 我这里写的注册成功之后自动跳到登录页面
             // 你们整理的时候把下面的路由变成首页的，就是注册成功后直接进入首页
             alert('恭喜您注册成功 快去体验吧🥇')
-            window.location.replace('/dl')
+            window.location.replace('/show')
         
     }
     render() {
@@ -71,7 +71,7 @@ export default class Zhuce extends Component {
                             placeholder=' 图片验证码'
                             style={{width:'30%',float:'left'}}/>
                         <img src={`${process.env.PUBLIC_URL}/yjnyzm.jpg`}/>
-                        <p style={{height:'100%',lineHeight:'40px',paddingTop:'35px'}}>换一张</p>
+                        <p style={{height:'100%',lineHeight:'40px',paddingTop:'35px',fontSize:'20px'}}>换一张</p>
                     </li>
                     <li>
                         {/* 手机验证码 */}
@@ -82,7 +82,7 @@ export default class Zhuce extends Component {
                             style={{width:'75%',float:'left',border:'none'}} 
                             type="text" 
                         placeholder=' 验证码'/>
-                        <p style={{height:'100%',lineHeight:'40px',paddingTop:'29px',borderBottom:'2px solid #CFCFCF'}}>发送验证码</p>
+                        <p style={{height:'100%',lineHeight:'40px',paddingTop:'29px',borderBottom:'2px solid #CFCFCF',fontSize:'10px'}}>发送验证码</p>
                     </li>
                     <li>
                         {/* 设置密码 */}

@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Getinto from './getinto/index';
+import Getinto from './Router/index';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<Getinto />, document.getElementById('root'));
